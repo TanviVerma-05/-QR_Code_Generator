@@ -72,16 +72,26 @@ label.pack(pady=10)
 entry = tk.Entry(root, width=40, font=("Arial", 12), bg="white", fg="black", insertbackground="black")
 entry.pack(pady=5)
 
-generate_button = tk.Button(root, text="Generate QR Code", command=generate_qr, bg="white", fg="black")
+generate_button = tk.Button(root, text="Generate QR Code",font=("Arial", 15), command=generate_qr, bg="white", fg="black")
 generate_button.pack(pady=10)
 
 qr_label = tk.Label(root, bg="white")
 qr_label.pack(pady=20)
 
-save_button = tk.Button(root, text="Save QR Code", command=save_qr, bg="white", fg="black")
+save_button = tk.Button(root, text="Save QR Code", font=("Arial", 15),command=save_qr, bg="white", fg="black")
 save_button.pack(pady=10)
 
-theme_button = tk.Button(root, text="Toggle Theme", command=toggle_theme, bg="white", fg="black")
+theme_button = tk.Button(root, text="Toggle Theme", font=("Arial", 15),command=toggle_theme, bg="white", fg="black")
 theme_button.pack(pady=10)
 
+window_width = 400
+window_height = 500
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+x = (screen_width // 2) - (window_width // 2)
+y = (screen_height // 2) - (window_height // 2)
+root.geometry(f"{window_width}x{window_height}+{x}+{y}")
+
+
 root.mainloop()
+
