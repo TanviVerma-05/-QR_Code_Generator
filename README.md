@@ -35,9 +35,16 @@ pip install qrcode[pil] pillow
 
 4. Click "Toggle Theme" to switch between light and dark mode.
 
-![light_theme](https://github.com/user-attachments/assets/a68b14a1-eb54-413c-906d-e0be038ae957)
 
-![dark_theme](https://github.com/user-attachments/assets/e299c97f-5166-446d-aa2c-a68035a86700)
+
+![light_theme](https://github.com/user-attachments/assets/3222b791-0698-49d8-bfaa-8205a1595a3f)
+
+
+
+
+![dark_theme](https://github.com/user-attachments/assets/24951a08-0f82-4c8b-af40-b94b7eee53da)
+
+
 
 
 
